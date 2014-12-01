@@ -1,0 +1,5 @@
+data/.hgignore.i
+data/ScreenManager.pro.i
+data/ScreenManagerCallback.h.i
+data/ScreenManager.cpp.i
+data/ScreenManager.h.i
