@@ -33,6 +33,18 @@ KoboTS::~KoboTS()
     close(_fd);
 }
 
+void KoboTS::suspend()
+{ 
+    _sn->setEnabled(false);
+    if ( _debug ) qDebug("KoboTS::suspend()");
+}
+
+void KoboTS::resume()
+{ 
+    _sn->setEnabled(true); 
+    if ( _debug ) qDebug("KoboTS::resume()");
+}
+
 #define POS_TH 10
 
 typedef struct input_event input_event_t;
