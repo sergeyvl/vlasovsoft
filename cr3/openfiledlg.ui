@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OpenFileDlg</class>
+ <widget class="QDialog" name="OpenFileDlg">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>654</width>
+    <height>420</height>
+   </rect>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::NoContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Open file</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="lblTitle">
+     <property name="text">
+      <string>Open file</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lblPosition">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="Line" name="line_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListView" name="fileList">
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="lineWidth">
+      <number>0</number>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="selectionMode">
+      <enum>QAbstractItemView::SingleSelection</enum>
+     </property>
+     <property name="selectionBehavior">
+      <enum>QAbstractItemView::SelectRows</enum>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>32</width>
+       <height>32</height>
+      </size>
+     </property>
+     <property name="textElideMode">
+      <enum>Qt::ElideMiddle</enum>
+     </property>
+     <property name="horizontalScrollMode">
+      <enum>QAbstractItemView::ScrollPerItem</enum>
+     </property>
+     <property name="uniformItemSizes">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="Line" name="line">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QToolButton" name="btnUp">
+       <property name="text">
+        <string notr="true">...</string>
+       </property>
+       <property name="icon">
+        <iconset resource="cr3.qrc">
+         <normaloff>:/icons/arrow_top.png</normaloff>:/icons/arrow_top.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="NavigationBar" name="navBar" native="true">
+       <property name="minimumSize">
+        <size>
+         <width>40</width>
+         <height>0</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QToolButton" name="btnCancel">
+       <property name="text">
+        <string notr="true">...</string>
+       </property>
+       <property name="icon">
+        <iconset resource="cr3.qrc">
+         <normaloff>:/close.png</normaloff>:/close.png</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+  <action name="actionSelectFile">
+   <property name="text">
+    <string notr="true">SelectFile</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">SelectFile</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Return</string>
+   </property>
+  </action>
+  <action name="actionGoToBegin">
+   <property name="text">
+    <string notr="true">GoToBegin</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">GoToBegin</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Home</string>
+   </property>
+  </action>
+  <action name="actionNextPage">
+   <property name="text">
+    <string notr="true">NextPage</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">NextPage</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">PgDown</string>
+   </property>
+  </action>
+  <action name="actionPrevPage">
+   <property name="text">
+    <string notr="true">PrevPage</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">PrevPage</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">PgUp</string>
+   </property>
+  </action>
+  <action name="actionGoToLastPage">
+   <property name="text">
+    <string notr="true">GoToLastPage</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">GoToLastPage</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Right</string>
+   </property>
+  </action>
+  <action name="actionGoToFirstPage">
+   <property name="text">
+    <string notr="true">GoToFirstPage</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">GoToFirstPage</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Left</string>
+   </property>
+  </action>
+  <action name="actionRemoveFile">
+   <property name="text">
+    <string notr="true">RemoveFile</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">RemoveFile</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Backspace</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>NavigationBar</class>
+   <extends>QWidget</extends>
+   <header>navigationbar.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="cr3.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>btnCancel</sender>
+   <signal>clicked()</signal>
+   <receiver>OpenFileDlg</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>631</x>
+     <y>398</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>209</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

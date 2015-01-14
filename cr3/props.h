@@ -1,0 +1,30 @@
+#ifndef PROPS_H
+#define PROPS_H
+
+#define PROP_APP_START_ACTION           "cr3.app.start.action"
+#define PROP_APP_UI_LANG                "window.language"
+#define PROP_APP_UI_ORIENTATION         "cr3.app.ui.orientation"
+#define PROP_APP_UI_DEF_FONT_SIZE       "cr3.app.ui.default.font.size"
+#define PROP_APP_UI_SCROLLBAR_SIZE      "cr3.app.ui.scrollbar.size"
+#define PROP_APP_UI_BUTTON_ICON_SIZE    "cr3.app.ui.button.icon.size"
+#define PROP_APP_UI_OPENFILE_FONT_SIZE  "cr3.app.ui.openfile.font.size"
+#define PROP_APP_UI_OPENFILE_VSCROLLBAR "cr3.app.ui.openfile.vscrollbar"
+#define PROP_APP_UI_OPENFILE_HSCROLLBAR "cr3.app.ui.openfile.hscrollbar"
+#define PROP_APP_UI_OPENFILE_ICON_SIZE  "cr3.app.ui.openfile.icon.size"
+#define PROP_APP_UI_RECENT_FONT_SIZE    "cr3.app.ui.recent.font.size"
+#define PROP_APP_UI_RECENT_VSCROLLBAR   "cr3.app.ui.recent.vscrollbar"
+#define PROP_APP_UI_RECENT_HSCROLLBAR   "cr3.app.ui.recent.hscrollbar"
+#define PROP_APP_UI_RECENT_REMOVE_FILES "cr3.app.ui.recent.remove_files"
+#define PROP_APP_UI_BOOKMARKS_VSCROLLBAR "cr3.app.ui.bookmarks.vscrollbar"
+#define PROP_APP_UI_BOOKMARKS_HSCROLLBAR "cr3.app.ui.bookmarks.hscrollbar"
+#define PROP_APP_UI_TOC_VSCROLLBAR      "cr3.app.ui.toc.vscrollbar"
+#define PROP_APP_UI_TOC_HSCROLLBAR      "cr3.app.ui.toc.hscrollbar"
+#define PROP_APP_UI_SWIPES_X_WEIGHT     "cr3.app.ui.swipes.xweight"
+#define PROP_APP_UI_SWIPES_Y_WEIGHT     "cr3.app.ui.swipes.yweight"
+#define PROP_APP_UI_KEY_MAPPING         "cr3.app.ui.key.%1.%2"
+#define PROP_APP_UI_ADISP_FONT_SIZE     "cr3.app.ui.adisp.font.size"
+#define PROP_APP_UI_ADISP_TIME          "cr3.app.ui.adisp.time"
+#define PROP_APP_UI_TOC_FONT_SIZE       "cr3.app.ui.toc.font.size"
+#define PROP_APP_UI_DICT_FONT_SIZE      "cr3.app.ui.dictionary.font.size"
+
+#endif // PROPS_H

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NavigationBar</class>
+ <widget class="QWidget" name="NavigationBar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>147</width>
+    <height>38</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="spacing">
+    <number>6</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QToolButton" name="btnFirst">
+     <property name="text">
+      <string notr="true">...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="cr3.qrc">
+       <normaloff>:/first.png</normaloff>:/first.png</iconset>
+     </property>
+     <property name="autoRepeat">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="btnPrev">
+     <property name="text">
+      <string notr="true">...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="cr3.qrc">
+       <normaloff>:/left.png</normaloff>:/left.png</iconset>
+     </property>
+     <property name="autoRepeat">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="btnNext">
+     <property name="text">
+      <string notr="true">...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="cr3.qrc">
+       <normaloff>:/right.png</normaloff>:/right.png</iconset>
+     </property>
+     <property name="autoRepeat">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="btnLast">
+     <property name="text">
+      <string notr="true">...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="cr3.qrc">
+       <normaloff>:/last.png</normaloff>:/last.png</iconset>
+     </property>
+     <property name="autoRepeat">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="cr3.qrc"/>
+ </resources>
+ <connections/>
+</ui>

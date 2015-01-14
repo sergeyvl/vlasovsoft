@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/checkbox_checked.png</file>
+        <file>icons/checkbox_unchecked.png</file>
+        <file>icons/checkbox_checked_disabled.png</file>
+        <file>icons/checkbox_unchecked_disabled.png</file>
+        <file>icons/arrow_top.png</file>
+        <file>icons/arrow_bottom.png</file>
+        <file>icons/book.png</file>
+        <file>icons/folder.png</file>
+        <file alias="checked.png">icons/checked.png</file>
+        <file alias="down-arrow.png">icons/down-arrow.png</file>
+        <file alias="left-arrow.png">icons/left-arrow.png</file>
+        <file alias="minus.png">icons/minus.png</file>
+        <file alias="plus.png">icons/plus.png</file>
+        <file alias="right-arrow.png">icons/right-arrow.png</file>
+        <file alias="up-arrow.png">icons/up-arrow.png</file>
+        <file alias="left.png">icons/left.png</file>
+        <file alias="right.png">icons/right.png</file>
+        <file alias="first.png">icons/first.png</file>
+        <file alias="last.png">icons/last.png</file>
+        <file alias="trash.png">icons/trash.png</file>
+        <file alias="hammer.png">icons/hammer.png</file>
+        <file alias="book.png">icons/book.png</file>
+        <file alias="close.png">icons/close.png</file>
+        <file alias="search.png">icons/search.png</file>
+    </qresource>
+</RCC>

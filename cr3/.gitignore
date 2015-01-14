@@ -1,0 +1,9 @@
+
+syntax: glob
+Makefile*
+*.pro.user
+obj*
+include
+qtbuild*
+data
+run_qmake_*.sh

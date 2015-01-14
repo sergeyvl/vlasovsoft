@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindowClass</class>
+ <widget class="QWidget" name="MainWindowClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>300</width>
+    <height>300</height>
+   </size>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="sizeConstraint">
+    <enum>QLayout::SetMinimumSize</enum>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="CR3View" name="view" native="true"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open file</string>
+   </property>
+  </action>
+  <action name="actionClose">
+   <property name="text">
+    <string>Close</string>
+   </property>
+   <property name="toolTip">
+    <string>Close</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true"/>
+   </property>
+  </action>
+  <action name="actionNextPage">
+   <property name="text">
+    <string>Next page</string>
+   </property>
+  </action>
+  <action name="actionPreviousPage">
+   <property name="text">
+    <string>Previous page</string>
+   </property>
+  </action>
+  <action name="actionBack">
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </action>
+  <action name="actionForward">
+   <property name="text">
+    <string>Forward</string>
+   </property>
+  </action>
+  <action name="actionTOC">
+   <property name="text">
+    <string>Table of contents</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">Show table of contents</string>
+   </property>
+  </action>
+  <action name="actionRecentBooks">
+   <property name="text">
+    <string>Recent books</string>
+   </property>
+  </action>
+  <action name="actionSettings">
+   <property name="text">
+    <string>Settings</string>
+   </property>
+  </action>
+  <action name="actionAddBookmark">
+   <property name="text">
+    <string>Add bookmark</string>
+   </property>
+   <property name="toolTip">
+    <string>Add bookmark</string>
+   </property>
+  </action>
+  <action name="actionShowBookmarksList">
+   <property name="text">
+    <string>Bookmarks</string>
+   </property>
+  </action>
+  <action name="actionFileProperties">
+   <property name="text">
+    <string>File properties</string>
+   </property>
+  </action>
+  <action name="actionFindText">
+   <property name="text">
+    <string>Find text</string>
+   </property>
+   <property name="toolTip">
+    <string>Find text</string>
+   </property>
+  </action>
+  <action name="actionShowMenu">
+   <property name="text">
+    <string>Show menu</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">ShowMenu</string>
+   </property>
+  </action>
+  <action name="actionEmpty">
+   <property name="text">
+    <string>Empty</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">Empty</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true"/>
+   </property>
+  </action>
+  <action name="actionFrontlight">
+   <property name="text">
+    <string>Front light</string>
+   </property>
+   <property name="toolTip">
+    <string>Front light</string>
+   </property>
+  </action>
+  <action name="actionScreenRotation">
+   <property name="text">
+    <string>Screen rotation</string>
+   </property>
+  </action>
+  <action name="actionFrontlightToggle">
+   <property name="text">
+    <string>Toggle frontlight</string>
+   </property>
+  </action>
+  <action name="actionFrontlightPlus">
+   <property name="text">
+    <string>Frontlight &gt;</string>
+   </property>
+  </action>
+  <action name="actionFrontlightMinus">
+   <property name="text">
+    <string>Frontlight &lt;</string>
+   </property>
+  </action>
+  <action name="actionFirstPage">
+   <property name="text">
+    <string>First page</string>
+   </property>
+  </action>
+  <action name="actionLastPage">
+   <property name="text">
+    <string>Last page</string>
+   </property>
+  </action>
+  <action name="actionNextChapter">
+   <property name="text">
+    <string>Next chapter</string>
+   </property>
+  </action>
+  <action name="actionPreviousChapter">
+   <property name="text">
+    <string>Previous chapter</string>
+   </property>
+  </action>
+  <action name="actionNext10Pages">
+   <property name="text">
+    <string>Next 10 pages</string>
+   </property>
+  </action>
+  <action name="actionPrevious10Pages">
+   <property name="text">
+    <string>Previous 10 pages</string>
+   </property>
+  </action>
+  <action name="actionZoomIn">
+   <property name="text">
+    <string>Zoom In</string>
+   </property>
+  </action>
+  <action name="actionZoomOut">
+   <property name="text">
+    <string>Zoom Out</string>
+   </property>
+  </action>
+  <action name="actionPosition">
+   <property name="text">
+    <string>Position</string>
+   </property>
+   <property name="toolTip">
+    <string>Position</string>
+   </property>
+  </action>
+  <action name="actionToggleInversion">
+   <property name="text">
+    <string>Toggle inversion</string>
+   </property>
+  </action>
+  <action name="actionToggleHeader">
+   <property name="text">
+    <string>Toggle header</string>
+   </property>
+  </action>
+  <action name="actionSuspend">
+   <property name="text">
+    <string>Suspend</string>
+   </property>
+  </action>
+  <action name="actionScreenRotation0">
+   <property name="text">
+    <string>Screen rotation 0</string>
+   </property>
+  </action>
+  <action name="actionScreenRotation90">
+   <property name="text">
+    <string>Screen rotation 90</string>
+   </property>
+  </action>
+  <action name="actionScreenRotation180">
+   <property name="text">
+    <string>Screen rotation 180</string>
+   </property>
+  </action>
+  <action name="actionScreenRotation270">
+   <property name="text">
+    <string>Screen rotation 270</string>
+   </property>
+  </action>
+  <action name="actionScreenRotationPlus90">
+   <property name="text">
+    <string>Screen rotation +90</string>
+   </property>
+  </action>
+  <action name="actionScreenRotationMinus90">
+   <property name="text">
+    <string>Screen rotation -90</string>
+   </property>
+  </action>
+  <action name="actionScreenRotationPlus180">
+   <property name="text">
+    <string>Screen rotation +180</string>
+   </property>
+  </action>
+  <action name="actionDeleteCurrentDocument">
+   <property name="text">
+    <string>Delete current document</string>
+   </property>
+  </action>
+  <action name="actionDictionary">
+   <property name="text">
+    <string>Dictionary</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>CR3View</class>
+   <extends>QWidget</extends>
+   <header>cr3widget.h</header>
+   <container>1</container>
+   <slots>
+    <signal>fileOpened()</signal>
+    <slot>open()</slot>
+    <slot>contextMenu(QPoint)</slot>
+   </slots>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+ <slots>
+  <slot>contextMenu(QPoint)</slot>
+ </slots>
+</ui>
